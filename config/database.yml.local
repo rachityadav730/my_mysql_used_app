@@ -1,0 +1,19 @@
+development:
+  primary:
+    adapter: mysql2
+    encoding: utf8
+    pool: 5
+    host: localhost
+    username: root
+    password: your_password
+    database: user_service_test
+
+  secondary:
+    adapter: mysql2
+    encoding: utf8
+    pool: 5
+    host: localhost
+    username: root
+    password: your_password
+    database: app_development
+
